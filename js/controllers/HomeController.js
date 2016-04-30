@@ -89,8 +89,47 @@ app.controller('HomeController', ['$scope', function($scope) {
       dislikes:	101,
       posterindex: 0
 	}
-	
-	
+	{
+      title: 'London Has Fallen',
+      iscore:'6.1',
+      rating: 'R',
+      runtime: '99',
+      released: new Date('2016', '3', '4',)
+      country: 'USA',
+      posters:
+      imdb:
+      website:
+      likes: 
+      dislikes:
+      posterindex: 0
+      }
+	{
+      title: 'Gods Of Egypt',
+      iscore:'5.6',
+      rating: 'R',
+      runtime: '127',
+      released: new Date('2016', '2', '26'),
+      country: 'USA',
+      posters:
+      imdb:
+      website:
+      likes:
+      dislikes:
+      posterindex: 0
+      }{
+      title: 'Olympus Has Fallen',
+      iscore: '6.5',
+      rating: 'R',
+      runtime: '119'
+      released: new Date('2013', '3', '22'),
+      country: 'USA',
+      posters:
+      imdb:
+      website:
+      likes:
+      dislikes:
+      posterindex: 0
+      }
   ];
 	
 	
@@ -100,7 +139,7 @@ app.controller('HomeController', ['$scope', function($scope) {
 	ng.name="IMDB = ALI Top 8 movie"
 	ng.owner="ALI"
       ng.github="https://github.com/IRA5"
-	
+
 	
 	
 	
